@@ -2,7 +2,6 @@ import { connect } from "react-redux";
 import { orderPizza } from "./redux";
 
 const PizzaBox = (props) => {
-  console.log("Props:", props);
   return (
     <div className="container">
       <h2 className="text">Number of Pizza Base Available - {props.pizzaBase}</h2>
