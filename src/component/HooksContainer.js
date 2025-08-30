@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { orderPizza } from "./redux";
 
 const HooksContainer = () => {
-  const pizzaBase = useSelector((state) => state.pizzaBase);
+  const pizzaBase = useSelector((state) => state.pizza.pizzaBase);
   const dispatch = useDispatch();
   return (
     <div className="container">
